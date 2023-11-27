@@ -109,7 +109,6 @@ object MovieModelImpl : MovieModel, BaseModel() {
             })
 
     }
-
     @SuppressLint("CheckResult")
     override fun getMovieDetails(
         movieID: String,
