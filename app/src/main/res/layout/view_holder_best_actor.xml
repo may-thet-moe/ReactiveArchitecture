@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/width_best_actor"
+    android:layout_height="@dimen/height_best_actor"
+    android:layout_marginStart="@dimen/margin_medium_2">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivBestActor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_best_actor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_banner" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnLike"
+        android:layout_width="@dimen/margin_medium_3"
+        android:layout_height="@dimen/margin_medium_3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:src="@drawable/ic_baseline_thumb_up_alt_white_24dp"
+        android:tint="@color/colorAccent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvYouLike"
+        android:text="@string/lbl_liked_movie"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/text_smaller"
+        android:textStyle="bold"
+        android:layout_alignBottom="@id/btnLike"
+        android:layout_toEndOf="@id/btnLike"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvBestActorName"
+        android:text="@string/lbl_best_actor_name"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_regular_2x"
+        android:layout_above="@id/btnLike"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_alignStart="@id/btnLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnFavourite"
+        android:src="@drawable/ic_baseline_favorite_white_24dp"
+        android:tint="@color/colorAccent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium_2"
+        android:layout_width="@dimen/margin_large"
+        android:layout_height="@dimen/margin_large"/>
+
+</RelativeLayout>

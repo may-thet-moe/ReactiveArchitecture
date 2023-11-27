@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">movieRx</string>
+    <string name="lbl_toolbar">Discover</string>
+    <string name="lbl_movie_image">Westworld</string>
+    <string name="lbl_check_movie_show_time">Check Movie\nShowtimes</string>
+    <string name="lbl_see_more"><u>See More</u></string>
+    <string name="lbl_best_popular_flim_and_movies">BEST POPULAR FILMS AND SERIES</string>
+    <string name="lbl_show_cases">SHOWCASES</string>
+    <string name="lbl_more_show_cases"><u>MORECHOWCASES</u></string>
+    <string name="lbl_show_case_movie_date">15 DECEMBER 2016</string>
+    <string name="lbl_best_actor">BEST ACTORS</string>
+    <string name="lbl_more_actors"><u>MORE ACTORS</u></string>
+    <string name="lbl_best_actor_name">Leonardo Dicaprio</string>
+    <string name="lbl_liked_movie">YOU LIKE 15 MOVIES</string>
+    <string name="lbl_movie_detail_title">Fantastic Beats and Where to Find Them</string>
+    <string name="lbl_release_year">2016</string>
+    <string name="lbl_rating">9,75</string>
+    <string name="lbl_number_of_vote">38876 VOTES</string>
+    <string name="lbl_movie_time">7h 30min</string>
+    <string name="lbl_family">Family</string>
+    <string name="lbl_fantasy">Fantasy</string>
+    <string name="lbl_adventure">Adventure</string>
+    <string name="lbl_storyline">STORYLINE</string>
+    <string name="lbl_storyline_detail">The year is 1926, and Newt Scamander (Eddie Redmayne) has just completed a global excursion to find and document an extraordinary array of magical creatures. Arriving in New York for a brief stopover, he might have come and gone without incident, were it not for a No-Maj (American for Muggle) named Jacob, a misplaced magical case, and the escape of some of Newt\'s fantastic beasts, which could spell trouble for both the wizarding and No-Maj worlds.</string>
+    <string name="lbl_play_trailer">PLAY TRAILER</string>
+    <string name="lbl_actor_title">ACTORS</string>
+    <string name="lbl_creator_title">CREATORS</string>
+    <string name="lbl_creator_more_title"><u>MORE CREATORS</u></string>
+    <string name="lbl_original_title">Original Title:</string>
+    <string name="lbl_original_title_text">Fantastic Beasts and Where to Find Them</string>
+    <string name="lbl_type">Type</string>
+    <string name="lbl_type_text">Family, Fantasy, Adventure</string>
+    <string name="lbl_production">Production</string>
+    <string name="lbl_production_text">United Kingdom, USA</string>
+    <string name="lbl_premiere">Premiere</string>
+    <string name="lbl_premiere_text">8 November 2016 (World)</string>
+    <string name="lbl_description_text">The film begins in 1926. Newt Scamander back from a great trip, the purpose of which was to find and describe a range of fantastic animals. His brief stay in New York...<u>MORE</u></string>
+
+
+
+    <string name="transition_game">GameTransition</string>
+
+</resources>
